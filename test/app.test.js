@@ -25,7 +25,7 @@ describe("Restful demo application test", () => {
       let res = await supertest(app.callback())
         .post("/user")
         .send(user)
-        .expect(201);
+        .expect(200);
       const { _id } = res.body;
       res = await supertest(app.callback())
         .get(`/user/${_id}`)
