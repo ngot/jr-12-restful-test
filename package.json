@@ -1,0 +1,21 @@
+{
+  "name": "restful_and_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0",
+    "supertest": "^6.1.3"
+  }
+}
