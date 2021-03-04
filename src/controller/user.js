@@ -21,7 +21,7 @@ async function createUser(ctx) {
   const user = new UserModel(body);
   const res = await user.save();
   ctx.body = res;
-  ctx.status = 202;
+  ctx.status = 201;
 }
 
 async function updateUser(ctx) {
