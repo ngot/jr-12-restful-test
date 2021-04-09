@@ -2,6 +2,8 @@
 
 const app = require("./app");
 
-app.listen(3000, () => {
-  console.log("Server is on: 3000");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server is on: ${PORT}`);
 });
